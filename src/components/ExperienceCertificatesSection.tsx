@@ -105,7 +105,7 @@ export const ExperienceCertificatesSection: React.FC<ExperienceCertificatesSecti
       description: 'Successfully completed intensive industrial training in Python programming, covering object-oriented design, API integration, and backend development workflows.',
       skills: ['Python', 'Data Structures', 'REST APIs', 'Automation'],
       gradient: 'from-blue-600 via-indigo-600 to-purple-600',
-      image: certificateImg
+      image: certificate2Img
     },
     {
       id: 'ai-ml-training',
@@ -127,7 +127,7 @@ export const ExperienceCertificatesSection: React.FC<ExperienceCertificatesSecti
       description: 'Official Certificate of Completion for the Add-On Course in WEB DESIGNING conducted by the Department of Computer Science, Regional College of Science and Humanities, Kizhisseri (Academic Year 2025 - 2026).',
       skills: ['Web Designing', 'HTML5', 'CSS3', 'JavaScript', 'Responsive Web Design', 'Department of Computer Science'],
       gradient: 'from-emerald-600 via-teal-600 to-cyan-600',
-      image: 'src/assets/images/certificate.png'
+      image: certificateImg
     },
     {
       id: 'college-certificates',
