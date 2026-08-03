@@ -1,0 +1,8 @@
+{
+  "name": "Remix Developer Portfolio",
+  "description": "An interactive, highly polished portfolio for a creative developer and designer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
