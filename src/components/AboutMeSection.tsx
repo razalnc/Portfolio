@@ -28,7 +28,7 @@ import {
 import { downloadCV } from '../utils/downloadCv';
 
 // @ts-ignore
-import heroPortrait from '../assets/images/ImRAZAL.png';
+import profileImage from "../assets/images/me.jpeg";
 
 interface AboutMeSectionProps {
   theme: Theme;
@@ -116,7 +116,7 @@ export const AboutMeSection: React.FC<AboutMeSectionProps> = ({ theme, getThemeC
           <div className="relative shrink-0">
             <div className="w-40 h-40 md:w-52 md:h-52 rounded-2xl overflow-hidden border-2 border-white/20 bg-gradient-to-b from-blue-500/20 to-purple-500/20 shadow-2xl flex items-center justify-center">
               <img 
-                src="src/assets/images/me.jpeg"
+                src={profileImage}
                 alt="Razal NC" 
                 className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
