@@ -4,6 +4,7 @@ import { Theme } from '../types';
 
 // @ts-ignore
 import webDesignCertImg from '../assets/images/web_design_cert_user_1785733939111.jpg';
+import certificateImage from '../assets/images/certificate.png';
 import { 
   Briefcase, 
   Award, 
@@ -103,7 +104,7 @@ export const ExperienceCertificatesSection: React.FC<ExperienceCertificatesSecti
       description: 'Successfully completed intensive industrial training in Python programming, covering object-oriented design, API integration, and backend development workflows.',
       skills: ['Python', 'Data Structures', 'REST APIs', 'Automation'],
       gradient: 'from-blue-600 via-indigo-600 to-purple-600',
-      image: 'src/assets/images/certificate2.png'
+      image: certificateImage
     },
     {
       id: 'ai-ml-training',
